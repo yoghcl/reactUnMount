@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-un-mount-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactUnMount/ReactUnMountWebPart.js",
+          "manifest": "./src/webparts/reactUnMount/ReactUnMountWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactUnMountWebPartStrings": "lib/webparts/reactUnMount/loc/{locale}.js"
+  }
+}

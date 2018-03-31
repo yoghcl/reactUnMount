@@ -1,0 +1,7 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/deploy-azure-storage.schema.json",
+  "workingDir": "./temp/deploy/",
+  "account": "demowebparts",
+  "container": "reactunmount",
+  "accessKey": "4pReayM8duNf/+YfDIes24Tv1SR9L/ZQhDC/tJrQohAKg/FAHUZZJFjhyVOKxk8FEzLfkJ5vwvfZxC7zRk3qEA=="
+}

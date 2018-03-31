@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "react-un-mount",
+    "libraryId": "5e052658-2eba-4d9c-8ac7-a32fa816a2c7",
+    "environment": "spo"
+  }
+}
