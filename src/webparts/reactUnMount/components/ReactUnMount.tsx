@@ -14,7 +14,7 @@ export default class ReactUnMount extends React.Component<IReactUnMountProps, {}
     console.log(`${LogSource} componentDidMount Invoked`);
   }
 
-  public componentWillUnMount() {
+  public componentWillUnmount() {
     console.log(`${LogSource} componentWillUnMount Invoked`);
   }
 
