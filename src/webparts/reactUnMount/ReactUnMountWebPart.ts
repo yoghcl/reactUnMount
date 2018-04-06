@@ -53,4 +53,8 @@ export default class ReactUnMountWebPart extends BaseClientSideWebPart<IReactUnM
       ]
     };
   }
+  protected onDispose(): void {
+    ReactDom.unmountComponentAtNode(this.domElement);
+  }
+}
 }
